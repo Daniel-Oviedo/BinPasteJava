@@ -15,6 +15,8 @@ public class BackendjavaApplication {
 		System.out.println("Backend Java Application is running!");
 	}
 
+    //prueba git
+
    @Bean
    public BCryptPasswordEncoder bCryptPasswordEncoder() {
        return new BCryptPasswordEncoder();
